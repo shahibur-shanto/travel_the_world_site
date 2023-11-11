@@ -12,8 +12,6 @@ import ErrorPage from "../error";
 import { useDestinationsQuery } from "@/redux/api/destinationApi";
 
 const HomePage = () => {
-
-
 	const style = {
 		// backgroundImage: `url(${backgroundImage.s	rc})`,
 		backgroundPosition: "center",
@@ -26,12 +24,13 @@ const HomePage = () => {
 	return (
 		<div style={style}>
 			<h1>HI</h1>
+			<h2>Hello</h2>
 			{/* <NavbarPage />
 			<SloganPage />
 			<HomeSearchPage />
 			<IntroSectionPage /> */}
 			<PopularSectionPage />
-			
+
 			{/* <TestimonialPage />
 			<NewsSectionPage />
 			<FooterPage /> */}
